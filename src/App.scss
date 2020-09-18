@@ -1,17 +1,21 @@
 @import "./styles/css-variables.scss";
 @import url("https://use.typekit.net/gef4qyt.css");
 
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "futura-pt", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
@@ -20,15 +24,14 @@ code {
 }
 
 .App {
-  text-align: center;
-  background-color: var(--color-black);
-  width: 100vw;
-  min-height: 100vh;
-  color: white;
-  min-width: 1600px;
+  position: relative;
+  max-width: 100vw;
+  height: 100%;
 }
 
 a {
   text-decoration: none;
   color: unset;
+  margin: 0;
+  padding: 0;
 }

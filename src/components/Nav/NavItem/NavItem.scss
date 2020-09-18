@@ -1,0 +1,31 @@
+.nav-item {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+
+  &__element {
+    overflow: visible;
+    min-width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &::after {
+      display: inline-block;
+      position: relative;
+      content: "";
+      background-color: var(--color-black);
+      width: 0;
+      height: 2px;
+      margin-top: 5px;
+      transition: width 0.3s;
+      transform-origin: center;
+    }
+
+    &:hover::after {
+      width: 20px;
+    }
+  }
+}
