@@ -5,7 +5,7 @@ import Nav from "./components/Nav/Nav";
 
 // pages
 import Home from "./pages/Home/Home";
-import Impressum from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 const pages = {
   home: Home,
@@ -21,7 +21,7 @@ const App = () => {
           <Route exact path="/publicrelation" component={pages.home} />
           <Route path="/home" component={pages.home} />
         </Switch>
-        <Impressum />
+        <Footer />
       </Router>
     </div>
   );

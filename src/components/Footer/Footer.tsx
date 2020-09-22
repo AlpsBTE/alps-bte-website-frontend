@@ -5,7 +5,7 @@ interface FooterProps {}
 
 const Footer = ({}: FooterProps) => {
   return (
-    <footer className="impressum">
+    <footer className="footer">
       <div></div>
     </footer>
   );
