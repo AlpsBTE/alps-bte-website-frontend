@@ -8,7 +8,7 @@ interface HomeProps {
 const Home = ({ title }: HomeProps) => {
   return (
     <div className="home">
-      <div>{title}</div>
+      <div className="home__hero">{title}</div>
     </div>
   );
 };

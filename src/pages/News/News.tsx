@@ -1,14 +1,14 @@
 import React from "react";
-import "./Blog.scss";
+import "./News.scss";
 
 interface BlogProps {}
 
-const Blog = ({}: BlogProps) => {
+const News = ({}: BlogProps) => {
   return (
-    <div className="blog">
+    <div className="news">
       <div>blog page</div>
     </div>
   );
 };
 
-export default Blog;
+export default News;

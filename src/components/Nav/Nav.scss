@@ -8,6 +8,7 @@
   box-shadow: 6px 2px 50px 2px #e6e6e6;
   width: 100vw;
   z-index: 10;
+  box-sizing: border-box;
 
   &__logo-wrapper {
     height: 100%;
