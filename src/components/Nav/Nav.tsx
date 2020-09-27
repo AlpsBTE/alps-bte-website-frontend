@@ -5,9 +5,11 @@ import NavItem from "./NavItem/NavItem";
 import PrimaryButton from "../PrimaryButton/PrimaryButton";
 const logo = require("../../assets/logo.png");
 
-interface NavProps {}
+// interface NavProps {
 
-const Nav = ({}: NavProps) => {
+// }
+
+const Nav = () => {
   return (
     <nav className="nav">
       <Link className="nav__logo-wrapper" to="/">

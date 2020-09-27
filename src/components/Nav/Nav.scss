@@ -1,5 +1,5 @@
 .nav {
-  position: relative;
+  position: fixed;
   height: 10vh;
   display: flex;
   justify-content: space-between;
@@ -9,6 +9,7 @@
   width: 100vw;
   z-index: 10;
   box-sizing: border-box;
+  background-color: var(--color-white);
 
   &__logo-wrapper {
     height: 100%;
